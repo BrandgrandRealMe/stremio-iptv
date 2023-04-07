@@ -18,9 +18,9 @@ try {
 // const oneDay = 24 * 60 * 60 // in seconds
 
 // const cache = {
-	maxAge: 1.5 * oneDay, // 1.5 days
-	staleError: 6 * 30 * oneDay // 6 months
-}
+	//maxAge: 1.5 * oneDay, // 1.5 days
+	//staleError: 6 * 30 * oneDay // 6 months
+//}
 
 const search_cache = {
 	timestamp: 0,
@@ -34,7 +34,7 @@ const manifest = {
 	catalogs: [{type:'tv',id:'HY',name:'HY',extra: [
 		{
 		  name: "genre",
-		  options: Object.keys(countries),
+		  options: Object.keys("US"),
 		  isRequired: true
 		}
 	  ]},{
